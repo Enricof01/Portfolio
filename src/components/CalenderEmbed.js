@@ -1,17 +1,28 @@
+import Button from "react-bootstrap/Button";
+import Analysis from "./Analysis";
 export default function CalenderEmbed() {
 
 
 
 return (
-    <section className="project-section">
+  <>
+    <section className="project-section-intern">
       <div className="container">
         <h1 className="project-heading">
-          Melting<span className="purple">Point</span>
+         Demo zum Kalender (in Bearbeitung)
         </h1>
 
-        <p style={{ color: "white", marginBottom: 20 }}>
-          Präsentation zum Projekt Schmelzpunktvorhersage.
-        </p>
+
+
+                  <Button
+                    variant="primary"
+                    href={"#Anforderungen"}
+                    // target="_blank"
+                    style={{ marginLeft: "10px" }}
+                  >
+                    
+                    {"Anforderungen"}
+                  </Button>
 
         <div
           style={{
@@ -26,7 +37,7 @@ return (
         title="Kalender"
         style={{
           width: "100%",
-          height: "100%",
+          height: "80%",
           border: 0,
           borderRadius: 12,
         }}
@@ -34,6 +45,13 @@ return (
     </div>
         </div>
       </div>
+      
     </section>
+          <section id = "Anforderungen" className="project-section-intern">
+            <Analysis/>
+          </section>
+        
+
+    </>
   );
 }

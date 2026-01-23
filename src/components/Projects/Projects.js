@@ -38,7 +38,8 @@ function Projects() {
               isBlog={false}
               title="Online Kalendersystem (in Bearbeitung)"
               description="Online Kalendersystem für die Eishalle Reutlingen"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/Enricof01/Calendar"
+              demoLink="/calendar"
             />
           </Col>
 
