@@ -22,6 +22,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
+
                 Mein Portfolio
 
               </h1>
@@ -34,6 +35,8 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+                    <Techstack />
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -44,9 +47,31 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+            
           </Row>
+
+
+           
         </Container>
+
+
+
+        
       </Container>
+
+      {/* <Container fluid className="home-section" style={{marginTop: "5%"}}>
+
+        <h1 style={{textAlign : "center"}}>Meine Kenntnisse</h1>
+
+      <Techstack />
+      </Container> */}
+
+
+
+
+
+
+     
       {/* <Home2 /> */}
 
       {/* <Container>

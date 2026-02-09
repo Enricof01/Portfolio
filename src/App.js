@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import MeltingPoint from "./components/Meltingpoint";
 import CalendarEmbed from "./components/CalenderEmbed"
+import VocabTrainerEmbed from "./components/VocabTrainerEmbed";
 import {
   BrowserRouter as Router,
   Route,
@@ -38,6 +39,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calendar" element={<CalendarEmbed />} />
+                    <Route path="/vocab" element={<VocabTrainerEmbed />} />
+
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           

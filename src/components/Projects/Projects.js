@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import mol from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -18,7 +19,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Ein paar Projekte, an denen ich kürzlich gearbeitet habe.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -40,6 +41,17 @@ function Projects() {
               description="Online Kalendersystem für die Eishalle Reutlingen"
               ghLink="https://github.com/Enricof01/Calendar"
               demoLink="/calendar"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Vokabeltrainer-App"
+              description="Simple Vokabeltrainerapp mit React, TS, Prisma und SQLLite"
+              ghLink="https://github.com/Enricof01/vocabtrainer"
+              demoLink="/vocab"
             />
           </Col>
 
